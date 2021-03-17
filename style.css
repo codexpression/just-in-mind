@@ -75,3 +75,43 @@ nav #download-btn {
     padding: 8px 15px;
     margin: 0px 10px;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    padding: 50px 10%;
+}
+
+main * {
+    flex: 1;
+}
+
+main .details {
+    color: #222;
+    padding-right: 10%;
+}
+
+main .details h1 {
+    font-weight: 400;
+    font-size: 2.4em;
+    margin: 10px 0px 30px
+}
+
+main .details h1 span {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+main .details h1 + p {
+    margin-bottom: 10px;
+}
+
+main .details a {
+    color: #7fe2e2;
+    padding: 10px 15px 10px 0px;
+}
+
+main .image img {
+    width: 100%;
+}
